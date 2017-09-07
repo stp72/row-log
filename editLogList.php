@@ -25,8 +25,8 @@ else {
         <!-- Top container -->
         <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
             <span class="w3-bar-item w3-left"><?php echo $conf['settings']['app.title'] ?></span>
-            <a class="w3-bar-item w3-button w3-right" href="index.php"><i class="fa fa-sign-out"></i></a>
-            <a class="w3-bar-item w3-button w3-right" href="changePassword.php"><i class="fa fa-cog"></i></a>
+            <a class="w3-bar-item w3-button w3-dark-grey w3-right" href="index.php"><i class="fa fa-sign-out"></i> Logout</a>
+            <a class="w3-bar-item w3-button w3-dark-grey w3-right" href="changePassword.php"><i class="fa fa-cog"></i> Change Password</a>
         </div>
 
         <!-- !PAGE CONTENT! -->
@@ -65,7 +65,7 @@ else {
                         </h3>
                     </div>
                     <div class="w3-clear"></div>
-                    <h4>ONEC Total Meters</h4>
+                    <h4>Club Total Meters</h4>
                 </div>
             </div>
             <div class="w3-quarter">

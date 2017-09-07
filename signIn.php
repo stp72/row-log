@@ -28,7 +28,7 @@ if( $_SERVER['REQUEST_METHOD'] == "POST" ) {
         <!-- Top container -->
         <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
             <span class="w3-bar-item w3-left"><?php echo $conf['settings']['app.title'] ?></span>
-            <a class="w3-bar-item w3-button w3-dark-grey w3-right" href="index.php">Back to Standings</a>
+            <a class="w3-bar-item w3-button w3-dark-grey w3-right" href="index.php"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Standings</a>
         </div>
 
         <!-- !PAGE CONTENT! -->

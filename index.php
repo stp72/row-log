@@ -20,7 +20,7 @@
         <!-- Top container -->
         <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
             <span class="w3-bar-item w3-left"><?php echo $conf['settings']['app.title'] ?></span>
-            <a class="w3-bar-item w3-button w3-right" href="signIn.php"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+            <a class="w3-bar-item w3-button w3-dark-grey w3-right" href="signIn.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
         </div>
         
         <!-- !PAGE CONTENT! -->
@@ -38,7 +38,7 @@
                             </h3>
                         </div>
                         <div class="w3-clear"></div>
-                        <h4>ONEC Total Meters</h4>
+                        <h4>Club Total Meters</h4>
                     </div>
                 </div>
                 <div class="w3-third">
